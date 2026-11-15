@@ -16,7 +16,7 @@ function convertToRoman(num) {
 	];
     //your code here
 	let result = "";
-	for (let [roman, numeral] of symbols{
+	for (let [roman, numeral] of symbols){
 		while (num >= numeral){
 			result += roman;
 			num = num - numeral;
